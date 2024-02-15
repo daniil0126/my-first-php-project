@@ -1,0 +1,234 @@
+
+body {
+    width: 100%;
+    background-color: #CED9B8;
+}
+
+header {
+    width: 100%;
+}
+
+.navigation {
+    padding: 4%;
+    background-color: #E2E4C3;
+
+}
+
+.ul {
+    width: 100%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 35px;
+
+}
+
+.log_link {
+    color: #8E87DE;
+}
+
+.li {
+    list-style: none;
+    font-size: 18px;
+}
+
+.link {
+    color: black;
+}
+
+
+.first-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    /* background-color: #CED9B8; */
+    padding-top: 5%;
+    margin: 0 auto;
+}
+.second-container{
+    background-color: #CED9B8;
+    display: block;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.about-container {
+    background-color: #dee7cb;
+    display: block;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+/* .login-container {
+    margin: 0 auto;
+    width: 50%;
+    padding: 5%;
+    background-color: #EDEDED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    gap: 5%;
+
+}
+.photo {
+    width: 30%;
+    border-radius: 15px;
+}
+h1 {
+    font-family: 'Oswald';
+    font-size: 38px;
+}
+h2 {
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+}
+h3{
+    font-family: 'Oswald';
+    text-align: center;
+    color: #8E87DE;
+}
+h5{
+    font-family: 'Oswald';
+    color: #383838;
+}
+.btn {
+    padding: 4% 10% 4% 10%;
+    border-radius: 15px;
+    background-color: #8E87DE;
+    color: #ffffff;
+    font-family: 'Oswald';
+    width: 30%;
+    text-align: center;
+}
+.description  {
+    font-family: 'Oswald';
+}
+.description .btn {
+    width: auto;
+}
+.description .card-description {
+    color: #525252;
+}
+.description .cost {
+    font-size: 24px;
+}
+.about-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1%;
+    padding-top: 1%;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1%;
+    padding-top: 1%;
+}
+.about-card {
+    padding: 3%;
+    background-color: #7D85D6;
+    width: 30%;
+    color: #ffffff;
+}
+.card {
+    padding: 3%;
+    background-color: #E9EAC5;
+    width: 30%;
+}
+.card-name {
+    font-size: 24px;
+}
+
+.part-content {
+    display: flex;
+    gap: 5%;
+}
+.right-part {
+    width: 30%;
+}
+.left-part {
+    width: 30%;
+}
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5%;
+}
+.phone-num-column h1 {
+    font-size: 20px;
+}
+.socials-column h1 {
+    font-size: 20px;
+}
+.foot-ul {
+    list-style: none;
+    padding: 0;
+}
+.soc-link{
+    text-decoration: none;
+    color: #000000;
+}
+
+.input {
+    width: 320px;
+    border: none;
+    padding: 10px;
+}
+
+label {
+    font-size: 12px;
+}
+
+
+
+
+.form {
+    width: 500px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 50px;
+    background-color: #EDEDED;
+    border-radius: 15px;
+}
+
+.form input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-family: 'Oswald';
+}
+
+.form button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #8E87DE;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.form p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.form a {
+    color: #8E87DE;
+    text-decoration: none;
+}
